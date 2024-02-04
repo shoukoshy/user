@@ -7,6 +7,10 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "yes", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    shell = "pwsh.exe",
+    shellxquote = "",
+    shellcmdflag = "-ExecutionPolicy Bypass -Command",
+    shellquote = "",
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
