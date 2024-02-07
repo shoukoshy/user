@@ -11,6 +11,7 @@ return {
     shellxquote = "",
     shellcmdflag = "-ExecutionPolicy Bypass -Command",
     shellquote = "",
+    termguicolors = true,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
