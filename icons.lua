@@ -45,5 +45,5 @@ return {
   Selected = "❯",
   Spellcheck = "󰓆",
   TabClose = "󰅙",
-  VimModeIcon = "",
+  VimModeIcon = "",
 }
