@@ -31,7 +31,21 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" }, -- change description but the same command
+    -- Toggle transparency
+    ["<leader>uT"] = {
+      function()
+        local current_trans_mode = require("onedarkpro.config").config.options.transparency
+        require("onedarkpro").setup {
+          options = {
+            transparency = not current_trans_mode,
+          },
+        }
+        local theme = vim.g.colors_name
+        vim.api.nvim_command("colorscheme " .. theme)
+      end,
+      desc = "Toggle transparency",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
