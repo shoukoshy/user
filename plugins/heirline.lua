@@ -7,7 +7,7 @@ return {
       status.component.mode {
         mode_text = {
           padding = { left = 1, right = 1 },
-          hl = { fg = "#000000" }, -- change color of text mode to display clearly
+          hl = { fg = "#333333" }, -- change color of text mode to display clearly
           icon = {
             kind = "VimModeIcon", -- get icon
             padding = { right = 1 },
