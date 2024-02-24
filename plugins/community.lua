@@ -17,4 +17,13 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.wildfire-nvim" },
   { import = "astrocommunity.completion.cmp-cmdline" },
+  { import = "astrocommunity.syntax.vim-sandwich" },
+  { import = "astrocommunity.utility.nvim-toggler" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.lsp.garbage-day-nvim" },
+  { import = "astrocommunity.lsp.lsp-lens-nvim" },
+  { import = "astrocommunity.lsp.lsp-signature-nvim" },
+  { import = "astrocommunity.register.nvim-neoclip-lua" },
+  { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.tabout-nvim" },
 }
